@@ -1,0 +1,55 @@
+# Development files
+*.log
+*.tmp
+*.cache
+.DS_Store
+Thumbs.db
+
+# Source files (only ship dist)
+src/
+node_modules/
+test/
+tests/
+examples/
+
+# Documentation (except README)
+docs/
+*.md
+!README.md
+
+# Config files
+.eslintrc*
+.prettierrc*
+tsconfig.json
+rollup.config.js
+vite.config.js
+webpack.config.js
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Demo files
+demo*.pdf
+ebook.pdf
+index.html
+demo-offline.html
+README-offline.md
+
+# Type definitions directories (keep root .d.ts files)
+components/
+hooks/
+web-components/

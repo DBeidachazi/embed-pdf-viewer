@@ -1,0 +1,48 @@
+{
+  "name": "xyz-pdf-snippet",
+  "version": "1.0.0",
+  "description": "Offline-capable PDF viewer built on EmbedPDF - A complete PDF viewing solution with annotations, search, zoom, and more",
+  "main": "embedpdf.js",
+  "module": "embedpdf.js",
+  "type": "module",
+  "files": [
+    "embedpdf.js",
+    "embedpdf-5926cb22.js",
+    "worker-engine-de49cddb.js",
+    "direct-engine-9996aac8.js",
+    "hammer-e1aXHboh-6cda5c0f.js",
+    "pdfium.wasm",
+    "embedpdf.d.ts",
+    "embedpdf.d.ts.map",
+    "README.md"
+  ],
+  "types": "embedpdf.d.ts",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "pdf",
+    "pdf-viewer",
+    "pdf-reader",
+    "embedpdf",
+    "offline-pdf",
+    "pdf-annotation",
+    "pdf-search",
+    "wasm",
+    "pdfium",
+    "document-viewer"
+  ],
+  "author": "DBeidachazi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DBeidachazi/embed-pdf-viewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DBeidachazi/embed-pdf-viewer/issues"
+  },
+  "homepage": "https://github.com/DBeidachazi/embed-pdf-viewer#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
