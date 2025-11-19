@@ -1,5 +1,7 @@
 # xyz-pdf-snippet
 
+编译自embyed-pdf-viewer，官方提供的cdn无法离线使用，打了个包，把wasm加了进去
+
 [![npm version](https://img.shields.io/npm/v/xyz-pdf-snippet.svg)](https://www.npmjs.com/package/xyz-pdf-snippet)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/badge/GitHub-DBeidachazi-blue)](https://github.com/DBeidachazi/embed-pdf-viewer)
